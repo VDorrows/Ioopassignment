@@ -20,7 +20,7 @@ namespace Assignment
         private void btnlogin_Click(object sender, EventArgs e)
         {
             string stat;
-            User obj1 = new User(txtusername.Text, txtpassword.Text);
+            ClassLogin obj1 = new ClassLogin(txtusername.Text, txtpassword.Text);
             stat = obj1.Login(txtusername.Text);
             if (stat != null)
             {
