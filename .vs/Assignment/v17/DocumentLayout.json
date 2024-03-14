@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\add user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add user.cs",
+              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Add user.cs",
+              "RelativeDocumentMoniker": "Assignment\\Add user.cs",
+              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Add user.cs",
+              "RelativeToolTip": "Assignment\\Add user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:11:48.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminHome.cs",
+              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\AdminHome.cs",
+              "RelativeDocumentMoniker": "Assignment\\AdminHome.cs",
+              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\AdminHome.cs",
+              "RelativeToolTip": "Assignment\\AdminHome.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:08:51.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\AdminHome.cs",
+              "RelativeDocumentMoniker": "Assignment\\AdminHome.cs",
+              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\AdminHome.cs [Design]",
+              "RelativeToolTip": "Assignment\\AdminHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:07:15.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Login.cs",
+              "RelativeDocumentMoniker": "Assignment\\Login.cs",
+              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Login.cs [Design]",
+              "RelativeToolTip": "Assignment\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T09:45:10.76Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 617,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1181,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\Login.mdf
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\Login_log.ldf
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.AdminHome.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Login.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.MemberHome.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.pdb
