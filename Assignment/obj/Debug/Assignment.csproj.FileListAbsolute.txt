@@ -15,3 +15,5 @@ C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\As
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.exe
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Adduser.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Edituser.resources

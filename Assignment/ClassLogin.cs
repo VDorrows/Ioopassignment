@@ -10,11 +10,11 @@ namespace Assignment
 {
     internal class ClassLogin
     {
-        private string username; private string password;
+        private string email; private string password; private string username;
 
-        public ClassLogin(string username,string password) 
+        public ClassLogin(string email,string password) 
         {
-            this.username = username;
+            this.email = email;
             this.password = password;
         }
 
@@ -26,21 +26,22 @@ namespace Assignment
             con.Open();
 
             SqlCommand cmd = new SqlCommand("select count(*) from users where email =@a and password =@b", con);
-            cmd.Parameters.AddWithValue("@a", username);
+            cmd.Parameters.AddWithValue("@a", email);
             cmd.Parameters.AddWithValue("@b", password);
 
             int count = Convert.ToInt32(cmd.ExecuteScalar());
             if (count > 0)
             {
                 SqlCommand cmd2 = new SqlCommand("Select role from users where email =@a and password =@b", con);
-                cmd2.Parameters.AddWithValue("@a", username);
+                cmd2.Parameters.AddWithValue("@a", email);
                 cmd2.Parameters.AddWithValue("@b", password);
 
                 string userRole = cmd2.ExecuteScalar().ToString();
+                string userName = cmd2.ExecuteScalar().ToString();
 
                 if (userRole == "admin")
                 {
-                    AdminHome a = new AdminHome();
+                    AdminHome a = new AdminHome(userName);
                     a.ShowDialog();
                 }
                 else if (userRole == "member")
