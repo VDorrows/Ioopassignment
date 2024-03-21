@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Assignment
 {
@@ -143,13 +144,12 @@ namespace Assignment
             string email = lblemail.Text;
             string password = lblpassword.Text;
             string username = lblusername.Text;
-            string userRole = lbluserRole.Text; 
-            string trainingLevel = lbltraininglevel.Text; 
-            string salary = lblsalary.Text; 
+            string userRole = lbluserRole.Text;
+            string trainingLevel = lbltraininglevel.Text;
+            string salary = lblsalary.Text;
 
-            Edituser editUser = new Edituser(email, password, username, userRole, trainingLevel, salary);
+            Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole);
             editUser.ShowDialog();
-
         }
     }
 }
