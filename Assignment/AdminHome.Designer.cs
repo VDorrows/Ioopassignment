@@ -48,6 +48,10 @@
             this.lblusername = new System.Windows.Forms.Label();
             this.lbltraininglevel = new System.Windows.Forms.Label();
             this.lblsalary = new System.Windows.Forms.Label();
+            this.btnclear = new System.Windows.Forms.Button();
+            this.btnviewR = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,17 +99,18 @@
             // btnupdate
             // 
             this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnupdate.Location = new System.Drawing.Point(472, 421);
+            this.btnupdate.Location = new System.Drawing.Point(470, 421);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(191, 68);
             this.btnupdate.TabIndex = 5;
             this.btnupdate.Text = "Update profile";
             this.btnupdate.UseVisualStyleBackColor = true;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
             // 
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(502, 91);
+            this.btnSearch.Location = new System.Drawing.Point(433, 91);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(112, 30);
             this.btnSearch.TabIndex = 38;
@@ -116,7 +121,7 @@
             // tbSearchemail
             // 
             this.tbSearchemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSearchemail.Location = new System.Drawing.Point(102, 91);
+            this.tbSearchemail.Location = new System.Drawing.Point(30, 91);
             this.tbSearchemail.Name = "tbSearchemail";
             this.tbSearchemail.Size = new System.Drawing.Size(397, 30);
             this.tbSearchemail.TabIndex = 37;
@@ -210,61 +215,102 @@
             this.lbluserRole.AutoSize = true;
             this.lbluserRole.Location = new System.Drawing.Point(3, 100);
             this.lbluserRole.Name = "lbluserRole";
-            this.lbluserRole.Size = new System.Drawing.Size(44, 16);
+            this.lbluserRole.Size = new System.Drawing.Size(0, 16);
             this.lbluserRole.TabIndex = 6;
-            this.lbluserRole.Text = "label8";
             // 
             // lblemail
             // 
             this.lblemail.AutoSize = true;
             this.lblemail.Location = new System.Drawing.Point(113, 100);
             this.lblemail.Name = "lblemail";
-            this.lblemail.Size = new System.Drawing.Size(44, 16);
+            this.lblemail.Size = new System.Drawing.Size(0, 16);
             this.lblemail.TabIndex = 7;
-            this.lblemail.Text = "label9";
             // 
             // lblpassword
             // 
             this.lblpassword.AutoSize = true;
             this.lblpassword.Location = new System.Drawing.Point(223, 100);
             this.lblpassword.Name = "lblpassword";
-            this.lblpassword.Size = new System.Drawing.Size(51, 16);
+            this.lblpassword.Size = new System.Drawing.Size(0, 16);
             this.lblpassword.TabIndex = 8;
-            this.lblpassword.Text = "label10";
             // 
             // lblusername
             // 
             this.lblusername.AutoSize = true;
             this.lblusername.Location = new System.Drawing.Point(333, 100);
             this.lblusername.Name = "lblusername";
-            this.lblusername.Size = new System.Drawing.Size(51, 16);
+            this.lblusername.Size = new System.Drawing.Size(0, 16);
             this.lblusername.TabIndex = 9;
-            this.lblusername.Text = "label11";
             // 
             // lbltraininglevel
             // 
             this.lbltraininglevel.AutoSize = true;
             this.lbltraininglevel.Location = new System.Drawing.Point(443, 100);
             this.lbltraininglevel.Name = "lbltraininglevel";
-            this.lbltraininglevel.Size = new System.Drawing.Size(51, 16);
+            this.lbltraininglevel.Size = new System.Drawing.Size(0, 16);
             this.lbltraininglevel.TabIndex = 10;
-            this.lbltraininglevel.Text = "label12";
             // 
             // lblsalary
             // 
             this.lblsalary.AutoSize = true;
             this.lblsalary.Location = new System.Drawing.Point(553, 100);
             this.lblsalary.Name = "lblsalary";
-            this.lblsalary.Size = new System.Drawing.Size(51, 16);
+            this.lblsalary.Size = new System.Drawing.Size(0, 16);
             this.lblsalary.TabIndex = 11;
-            this.lblsalary.Text = "label13";
+            // 
+            // btnclear
+            // 
+            this.btnclear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclear.Location = new System.Drawing.Point(549, 91);
+            this.btnclear.Name = "btnclear";
+            this.btnclear.Size = new System.Drawing.Size(112, 30);
+            this.btnclear.TabIndex = 40;
+            this.btnclear.Text = "Clear";
+            this.btnclear.UseVisualStyleBackColor = true;
+            this.btnclear.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnviewR
+            // 
+            this.btnviewR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnviewR.Location = new System.Drawing.Point(738, 93);
+            this.btnviewR.Name = "btnviewR";
+            this.btnviewR.Size = new System.Drawing.Size(252, 99);
+            this.btnviewR.TabIndex = 41;
+            this.btnviewR.Text = "View member recommendation";
+            this.btnviewR.UseVisualStyleBackColor = true;
+            this.btnviewR.Click += new System.EventHandler(this.btnviewR_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(738, 215);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(252, 99);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "View income";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(738, 352);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(252, 99);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "View Competition Summary";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // AdminHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(715, 519);
+            this.ClientSize = new System.Drawing.Size(1033, 519);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnviewR);
+            this.Controls.Add(this.btnclear);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.tbSearchemail);
@@ -305,5 +351,9 @@
         private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.Label lbltraininglevel;
         private System.Windows.Forms.Label lblsalary;
+        private System.Windows.Forms.Button btnclear;
+        private System.Windows.Forms.Button btnviewR;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

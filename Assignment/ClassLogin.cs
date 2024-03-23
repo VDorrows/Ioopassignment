@@ -37,16 +37,15 @@ namespace Assignment
                 cmd2.Parameters.AddWithValue("@b", password);
 
                 string userRole = cmd2.ExecuteScalar().ToString();
-                string userName = cmd2.ExecuteScalar().ToString();
 
                 if (userRole == "admin")
                 {
-                    AdminHome a = new AdminHome(userName);
+                    AdminHome a = new AdminHome(email);
                     a.ShowDialog();
                 }
                 else if (userRole == "member")
                 {
-                    MemberHome m = new MemberHome();
+                    hehehe.MemberHome m = new hehehe.MemberHome();
                     m.ShowDialog();
                 }
                 else if (userRole == "coach")

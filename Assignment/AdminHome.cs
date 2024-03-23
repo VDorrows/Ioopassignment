@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Assignment
@@ -120,8 +121,22 @@ namespace Assignment
 
                         if (reader.Read())
                         {
-                            lbltraininglevel.Text = reader["traininglevel"].ToString();
-                            lblsalary.Text = reader["salary"].ToString();
+                            try
+                            {
+                                lbltraininglevel.Text = reader["traininglevel"].ToString();
+                            }
+                            catch
+                            {
+                                lbltraininglevel.Text = null;
+                            }
+                            try
+                            {
+                                lblsalary.Text = reader["salary"].ToString();
+                            }
+                            catch
+                            {
+                                lblsalary.Text = null;
+                            }
                         }
                         else
                         {
@@ -147,9 +162,78 @@ namespace Assignment
             string userRole = lbluserRole.Text;
             string trainingLevel = lbltraininglevel.Text;
             string salary = lblsalary.Text;
+            clearFields();
 
-            Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole);
+            Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole,true);
             editUser.ShowDialog();
+        }
+
+        private void clearFields()
+        {
+            lbluserRole.Text = null;
+            lblemail.Text = null;
+            lblpassword.Text = null;
+            lblusername.Text = null;
+            lbltraininglevel.Text = null;
+            lblsalary.Text = null;
+        }
+
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE email = @name", con);
+                    cmd.Parameters.AddWithValue("@name", name);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        lbluserRole.Text = reader["role"].ToString();
+                        lblemail.Text = reader["email"].ToString();
+                        lblpassword.Text = reader["password"].ToString();
+                        lblusername.Text = reader["username"].ToString();
+                        lbluserRole.Text = reader["role"].ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("User not found.");
+                    }
+
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            string email = lblemail.Text;
+            string password = lblpassword.Text;
+            string username = lblusername.Text;
+            string userRole = lbluserRole.Text;
+            clearFields();
+            Edituser editUserForm = new Edituser(email, password, username, "","", userRole,false);
+            editUserForm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clearFields();
+        }
+
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnviewR_Click(object sender, EventArgs e)
+        {
+            View_Suggestion vS = new View_Suggestion();
+            vS.ShowDialog();
         }
     }
 }
