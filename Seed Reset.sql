@@ -1,0 +1,4 @@
+﻿DBCC CHECKIDENT ('users', RESEED, 0);
+DBCC CHECKIDENT ('coach', RESEED, 0);
+DBCC CHECKIDENT ('manager', RESEED, 0);
+DBCC CHECKIDENT ('member', RESEED, 0);
