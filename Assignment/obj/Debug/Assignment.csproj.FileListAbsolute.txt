@@ -21,3 +21,12 @@ C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\he
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.Form4.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.MemberHome.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.View_Suggestion.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.AddT.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.CoachMenu.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.DeleteT.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.EditT.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.FeeDue.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Perform.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdate.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Rec.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
