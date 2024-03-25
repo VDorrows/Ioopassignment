@@ -66,173 +66,195 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddTraining.cs">
+    <Compile Include="Coach folder\AddTraining.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddTraining.Designer.cs">
+    <Compile Include="Coach folder\AddTraining.Designer.cs">
       <DependentUpon>AddTraining.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class Adduser.cs" />
-    <Compile Include="Adduser.cs">
+    <Compile Include="Admin folder\Class Adduser.cs" />
+    <Compile Include="Admin folder\Adduser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adduser.Designer.cs">
+    <Compile Include="Admin folder\Adduser.Designer.cs">
       <DependentUpon>Adduser.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminHome.cs">
+    <Compile Include="Admin folder\AdminHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminHome.Designer.cs">
+    <Compile Include="Admin folder\AdminHome.Designer.cs">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClassEditUser.cs" />
-    <Compile Include="CoachMenu.cs">
+    <Compile Include="Admin folder\ClassEditUser.cs" />
+    <Compile Include="Admin folder\ClassView.cs" />
+    <Compile Include="Coach folder\CoachMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CoachMenu.Designer.cs">
+    <Compile Include="Coach folder\CoachMenu.Designer.cs">
       <DependentUpon>CoachMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteTraining.cs">
+    <Compile Include="Coach folder\EditTraining.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteTraining.Designer.cs">
-      <DependentUpon>DeleteTraining.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditTraining.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditTraining.Designer.cs">
+    <Compile Include="Coach folder\EditTraining.Designer.cs">
       <DependentUpon>EditTraining.cs</DependentUpon>
     </Compile>
-    <Compile Include="Edituser.cs">
+    <Compile Include="Admin folder\Edituser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edituser.Designer.cs">
+    <Compile Include="Admin folder\Edituser.Designer.cs">
       <DependentUpon>Edituser.cs</DependentUpon>
     </Compile>
-    <Compile Include="FeeDue.cs">
+    <Compile Include="Member folder\EnrollUnenroll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FeeDue.Designer.cs">
+    <Compile Include="Member folder\EnrollUnenroll.Designer.cs">
+      <DependentUpon>EnrollUnenroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coach folder\FeeDue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coach folder\FeeDue.Designer.cs">
       <DependentUpon>FeeDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member folder\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member folder\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LoginDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="MemberHome.cs">
+    <Compile Include="Member folder\MemberCompetition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MemberHome.Designer.cs">
+    <Compile Include="Member folder\MemberCompetition.Designer.cs">
+      <DependentUpon>MemberCompetition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member folder\MemberHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member folder\MemberHome.Designer.cs">
       <DependentUpon>MemberHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Member folder\Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
+    <Compile Include="Member folder\Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Admin folder\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Admin folder\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManagerHome.cs">
+    <Compile Include="Manager folder\ManagerHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagerHome.Designer.cs">
+    <Compile Include="Manager folder\ManagerHome.Designer.cs">
       <DependentUpon>ManagerHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Perform.cs">
+    <Compile Include="Member folder\MemberPerformance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Perform.Designer.cs">
+    <Compile Include="Member folder\MemberPerformance.Designer.cs">
+      <DependentUpon>MemberPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member folder\MemberSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member folder\MemberSchedule.Designer.cs">
+      <DependentUpon>MemberSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member folder\MemberSuggestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member folder\MemberSuggestion.Designer.cs">
+      <DependentUpon>MemberSuggestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coach folder\Perform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coach folder\Perform.Designer.cs">
       <DependentUpon>Perform.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfUpdate.cs">
+    <Compile Include="Member folder\ProfUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProfUpdate.Designer.cs">
+    <Compile Include="Member folder\ProfUpdate.Designer.cs">
       <DependentUpon>ProfUpdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ClassLogin.cs" />
-    <Compile Include="Recommendation.cs">
+    <Compile Include="Admin folder\ClassLogin.cs" />
+    <Compile Include="Coach folder\Recommendation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recommendation.Designer.cs">
+    <Compile Include="Coach folder\Recommendation.Designer.cs">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </Compile>
-    <Compile Include="TrainingSchedule.cs">
+    <Compile Include="Coach folder\TrainingSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TrainingSchedule.Designer.cs">
+    <Compile Include="Coach folder\TrainingSchedule.Designer.cs">
       <DependentUpon>TrainingSchedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="View Suggestion.cs">
+    <Compile Include="Admin folder\View.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View Suggestion.Designer.cs">
-      <DependentUpon>View Suggestion.cs</DependentUpon>
+    <Compile Include="Admin folder\View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddTraining.resx">
+    <EmbeddedResource Include="Coach folder\AddTraining.resx">
       <DependentUpon>AddTraining.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adduser.resx">
+    <EmbeddedResource Include="Admin folder\Adduser.resx">
       <DependentUpon>Adduser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminHome.resx">
+    <EmbeddedResource Include="Admin folder\AdminHome.resx">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CoachMenu.resx">
+    <EmbeddedResource Include="Coach folder\CoachMenu.resx">
       <DependentUpon>CoachMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteTraining.resx">
-      <DependentUpon>DeleteTraining.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditTraining.resx">
+    <EmbeddedResource Include="Coach folder\EditTraining.resx">
       <DependentUpon>EditTraining.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Edituser.resx">
+    <EmbeddedResource Include="Admin folder\Edituser.resx">
       <DependentUpon>Edituser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FeeDue.resx">
+    <EmbeddedResource Include="Member folder\EnrollUnenroll.resx">
+      <DependentUpon>EnrollUnenroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coach folder\FeeDue.resx">
       <DependentUpon>FeeDue.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MemberHome.resx">
-      <DependentUpon>MemberHome.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
+    <EmbeddedResource Include="Member folder\Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Member folder\MemberHome.resx">
+      <DependentUpon>MemberHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member folder\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin folder\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Perform.resx">
+    <EmbeddedResource Include="Member folder\MemberSchedule.resx">
+      <DependentUpon>MemberSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member folder\MemberSuggestion.resx">
+      <DependentUpon>MemberSuggestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coach folder\Perform.resx">
       <DependentUpon>Perform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProfUpdate.resx">
+    <EmbeddedResource Include="Member folder\ProfUpdate.resx">
       <DependentUpon>ProfUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -244,14 +266,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Recommendation.resx">
+    <EmbeddedResource Include="Coach folder\Recommendation.resx">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TrainingSchedule.resx">
+    <EmbeddedResource Include="Coach folder\TrainingSchedule.resx">
       <DependentUpon>TrainingSchedule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View Suggestion.resx">
-      <DependentUpon>View Suggestion.cs</DependentUpon>
+    <EmbeddedResource Include="Admin folder\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LoginDataSet.xsc">
       <DependentUpon>LoginDataSet.xsd</DependentUpon>
@@ -299,5 +321,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
