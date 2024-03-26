@@ -3,47 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\coach folder\\trainingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\member folder\\memberhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\assignment\\admin folder\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Adduser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Adduser.cs",
               "RelativeDocumentMoniker": "Assignment\\Admin folder\\Adduser.cs",
@@ -72,31 +64,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrainingSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs",
-              "RelativeDocumentMoniker": "Assignment\\Coach folder\\TrainingSchedule.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs",
-              "RelativeToolTip": "Assignment\\Coach folder\\TrainingSchedule.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAtwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T07:27:02.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrainingSchedule.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs",
-              "RelativeDocumentMoniker": "Assignment\\Coach folder\\TrainingSchedule.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs [Design]",
-              "RelativeToolTip": "Assignment\\Coach folder\\TrainingSchedule.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T07:27:00.01Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -151,6 +118,17 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainingSchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs",
+              "RelativeDocumentMoniker": "Assignment\\Coach folder\\TrainingSchedule.cs",
+              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Coach folder\\TrainingSchedule.cs [Design]",
+              "RelativeToolTip": "Assignment\\Coach folder\\TrainingSchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T07:27:00.01Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "View.cs [Design]",
               "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\View.cs",
@@ -177,18 +155,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AdminHome.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\AdminHome.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs [Design]",
-              "RelativeToolTip": "Assignment\\Admin folder\\AdminHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T05:42:51.877Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Login.cs",
               "RelativeDocumentMoniker": "Assignment\\Admin folder\\Login.cs",
