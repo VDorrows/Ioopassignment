@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Assignment
 {
     public partial class CoachMenu : Form
     {
-        public CoachMenu()
+        private string email;
+        public CoachMenu(string email)
         {
             InitializeComponent();
+            this.email = email;
+            labelemail.Text = email;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -56,7 +60,7 @@ namespace Assignment
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ProfUpdate obj1 = new ProfUpdate();
+            ProfUpdateCoach obj1 = new ProfUpdateCoach(email);
             obj1.ShowDialog();
             obj1 = null;
             this.Show();

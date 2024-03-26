@@ -50,7 +50,7 @@ namespace Assignment
                 }
                 else if (userRole == "coach")
                 {
-                    CoachMenu c = new CoachMenu();
+                    CoachMenu c = new CoachMenu(email);
                     c.ShowDialog();
                 }
                 else if (userRole == "manager")

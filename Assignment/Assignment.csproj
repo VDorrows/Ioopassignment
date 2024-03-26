@@ -87,11 +87,20 @@
     </Compile>
     <Compile Include="Admin folder\ClassEditUser.cs" />
     <Compile Include="Admin folder\ClassView.cs" />
+    <Compile Include="Coach folder\ClassAddTraining.cs" />
+    <Compile Include="Coach folder\ClassEditTraining.cs" />
+    <Compile Include="Coach folder\ClassPerformance.cs" />
     <Compile Include="Coach folder\CoachMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Coach folder\CoachMenu.Designer.cs">
       <DependentUpon>CoachMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coach folder\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coach folder\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
     </Compile>
     <Compile Include="Coach folder\EditTraining.cs">
       <SubType>Form</SubType>
@@ -104,6 +113,12 @@
     </Compile>
     <Compile Include="Admin folder\Edituser.Designer.cs">
       <DependentUpon>Edituser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coach folder\ProfUpdateCoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coach folder\ProfUpdateCoach.Designer.cs">
+      <DependentUpon>ProfUpdateCoach.cs</DependentUpon>
     </Compile>
     <Compile Include="Member folder\EnrollUnenroll.cs">
       <SubType>Form</SubType>
@@ -182,12 +197,6 @@
     <Compile Include="Coach folder\Perform.Designer.cs">
       <DependentUpon>Perform.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member folder\ProfUpdate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member folder\ProfUpdate.Designer.cs">
-      <DependentUpon>ProfUpdate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Admin folder\ClassLogin.cs" />
@@ -221,11 +230,17 @@
     <EmbeddedResource Include="Coach folder\CoachMenu.resx">
       <DependentUpon>CoachMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Coach folder\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\EditTraining.resx">
       <DependentUpon>EditTraining.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin folder\Edituser.resx">
       <DependentUpon>Edituser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coach folder\ProfUpdateCoach.resx">
+      <DependentUpon>ProfUpdateCoach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Member folder\EnrollUnenroll.resx">
       <DependentUpon>EnrollUnenroll.cs</DependentUpon>
@@ -253,9 +268,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\Perform.resx">
       <DependentUpon>Perform.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Member folder\ProfUpdate.resx">
-      <DependentUpon>ProfUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -39,10 +39,5 @@ namespace Assignment
             obj1 = null;
             this.Show();
         }
-
-        private void DeleteTbtn_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
