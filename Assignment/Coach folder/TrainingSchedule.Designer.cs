@@ -31,7 +31,6 @@
             this.Traninglbl = new System.Windows.Forms.Label();
             this.AddTbtn = new System.Windows.Forms.Button();
             this.EditTbtn = new System.Windows.Forms.Button();
-            this.DeleteTbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Traninglbl
@@ -48,7 +47,7 @@
             // 
             // AddTbtn
             // 
-            this.AddTbtn.Location = new System.Drawing.Point(38, 268);
+            this.AddTbtn.Location = new System.Drawing.Point(86, 268);
             this.AddTbtn.Margin = new System.Windows.Forms.Padding(6);
             this.AddTbtn.Name = "AddTbtn";
             this.AddTbtn.Size = new System.Drawing.Size(199, 76);
@@ -59,32 +58,20 @@
             // 
             // EditTbtn
             // 
-            this.EditTbtn.Location = new System.Drawing.Point(278, 268);
+            this.EditTbtn.Location = new System.Drawing.Point(479, 268);
             this.EditTbtn.Margin = new System.Windows.Forms.Padding(6);
             this.EditTbtn.Name = "EditTbtn";
             this.EditTbtn.Size = new System.Drawing.Size(199, 76);
             this.EditTbtn.TabIndex = 2;
-            this.EditTbtn.Text = "Edit";
+            this.EditTbtn.Text = "Edit / Delete";
             this.EditTbtn.UseVisualStyleBackColor = true;
             this.EditTbtn.Click += new System.EventHandler(this.EditTbtn_Click);
-            // 
-            // DeleteTbtn
-            // 
-            this.DeleteTbtn.Location = new System.Drawing.Point(508, 268);
-            this.DeleteTbtn.Margin = new System.Windows.Forms.Padding(6);
-            this.DeleteTbtn.Name = "DeleteTbtn";
-            this.DeleteTbtn.Size = new System.Drawing.Size(199, 76);
-            this.DeleteTbtn.TabIndex = 3;
-            this.DeleteTbtn.Text = "Delete";
-            this.DeleteTbtn.UseVisualStyleBackColor = true;
-            this.DeleteTbtn.Click += new System.EventHandler(this.DeleteTbtn_Click);
             // 
             // TrainingSchedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 455);
-            this.Controls.Add(this.DeleteTbtn);
             this.Controls.Add(this.EditTbtn);
             this.Controls.Add(this.AddTbtn);
             this.Controls.Add(this.Traninglbl);
@@ -102,6 +89,5 @@
         private System.Windows.Forms.Label Traninglbl;
         private System.Windows.Forms.Button AddTbtn;
         private System.Windows.Forms.Button EditTbtn;
-        private System.Windows.Forms.Button DeleteTbtn;
     }
 }
