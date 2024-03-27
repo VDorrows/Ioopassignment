@@ -48,7 +48,7 @@ namespace Assignment
                 case "Suggestion":
                     return "SELECT Id FROM Suggestion";
                 case "Income":
-                    return "";
+                    return "SELECT ScheduleID FROM Schedule";
                 case "Competition":
                     return "SELECT CompetitonID FROM CompetitionResult";
                 default:
@@ -94,8 +94,7 @@ namespace Assignment
                 case "Suggestion":
                     return "SELECT Suggestion FROM Suggestion WHERE ID = @id";
                 case "Income":
-                    // Provide the SQL query for Income command
-                    return "";
+                    return "SELECT Income FROM Schedule WHERE ScheduleID = @id";
                 case "Competition":
                     return "SELECT Result FROM CompetitionResult WHERE CompetitionID = @id";
                 default:

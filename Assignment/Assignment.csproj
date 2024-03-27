@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin folder\Class SQL.cs" />
     <Compile Include="Coach folder\AddTraining.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,7 +200,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Admin folder\ClassLogin.cs" />
     <Compile Include="Coach folder\Recommendation.cs">
       <SubType>Form</SubType>
     </Compile>

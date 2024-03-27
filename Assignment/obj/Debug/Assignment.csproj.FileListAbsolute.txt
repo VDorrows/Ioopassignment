@@ -25,7 +25,6 @@ C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\As
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.EditT.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.FeeDue.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Perform.resources
-C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdate.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Rec.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.MemberSchedule.resources
@@ -99,3 +98,5 @@ C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignmen
 C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
 C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.exe
 C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Edit.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdateCoach.resources
