@@ -27,6 +27,8 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +50,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SOAPTools, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SOAPTools.Core.SOAPRequestBuilder.net462.1.0.10\lib\net462\SOAPTools.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -66,11 +71,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCompetition.Designer.cs">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddTraining.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddTraining.Designer.cs">
       <DependentUpon>AddTraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignMembers.Designer.cs">
+      <DependentUpon>AssignMembers.cs</DependentUpon>
     </Compile>
     <Compile Include="Class Adduser.cs" />
     <Compile Include="Adduser.cs">
@@ -92,11 +109,29 @@
     <Compile Include="CoachMenu.Designer.cs">
       <DependentUpon>CoachMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="CompetitionResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompetitionResults.Designer.cs">
+      <DependentUpon>CompetitionResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCompetition.Designer.cs">
+      <DependentUpon>DeleteCompetition.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeleteTraining.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DeleteTraining.Designer.cs">
       <DependentUpon>DeleteTraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCompetition.Designer.cs">
+      <DependentUpon>EditCompetition.cs</DependentUpon>
     </Compile>
     <Compile Include="EditTraining.cs">
       <SubType>Form</SubType>
@@ -115,6 +150,12 @@
     </Compile>
     <Compile Include="FeeDue.Designer.cs">
       <DependentUpon>FeeDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Competition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Competition.Designer.cs">
+      <DependentUpon>Competition.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -178,6 +219,12 @@
     <Compile Include="Recommendation.Designer.cs">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentRecommendations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentRecommendations.Designer.cs">
+      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrainingSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +237,15 @@
     <Compile Include="View Suggestion.Designer.cs">
       <DependentUpon>View Suggestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCompetition.Designer.cs">
+      <DependentUpon>ViewCompetition.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCompetition.resx">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddTraining.resx">
       <DependentUpon>AddTraining.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,11 +255,26 @@
     <EmbeddedResource Include="AdminHome.resx">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AssignMembers.resx">
+      <DependentUpon>AssignMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CoachMenu.resx">
       <DependentUpon>CoachMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Competition.resx">
+      <DependentUpon>Competition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompetitionResults.resx">
+      <DependentUpon>CompetitionResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCompetition.resx">
+      <DependentUpon>DeleteCompetition.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeleteTraining.resx">
       <DependentUpon>DeleteTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCompetition.resx">
+      <DependentUpon>EditCompetition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditTraining.resx">
       <DependentUpon>EditTraining.cs</DependentUpon>
@@ -213,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FeeDue.resx">
       <DependentUpon>FeeDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerHome.resx">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MemberHome.resx">
       <DependentUpon>MemberHome.cs</DependentUpon>
@@ -247,11 +321,17 @@
     <EmbeddedResource Include="Recommendation.resx">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StudentRecommendations.resx">
+      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrainingSchedule.resx">
       <DependentUpon>TrainingSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View Suggestion.resx">
       <DependentUpon>View Suggestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCompetition.resx">
+      <DependentUpon>ViewCompetition.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LoginDataSet.xsc">
       <DependentUpon>LoginDataSet.xsd</DependentUpon>
@@ -300,4 +380,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.5.2.0\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.5.2.0\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Data.SqlClient.SNI.5.2.0\build\net462\Microsoft.Data.SqlClient.SNI.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Data.SqlClient.SNI.5.2.0\build\net462\Microsoft.Data.SqlClient.SNI.targets'))" />
+  </Target>
 </Project>

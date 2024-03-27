@@ -99,5 +99,9 @@ namespace Assignment
             mtbsalary.Clear();
         }
 
+        private void Adduser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,9 +46,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(214, 46);
+            this.label1.Location = new System.Drawing.Point(321, 72);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 32);
+            this.label1.Size = new System.Drawing.Size(462, 52);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add Training Schedule";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -57,9 +58,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(85, 130);
+            this.label2.Location = new System.Drawing.Point(128, 203);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 25);
+            this.label2.Size = new System.Drawing.Size(84, 37);
             this.label2.TabIndex = 1;
             this.label2.Text = "Date";
             // 
@@ -67,9 +69,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(85, 187);
+            this.label3.Location = new System.Drawing.Point(128, 292);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.Size = new System.Drawing.Size(165, 37);
             this.label3.TabIndex = 2;
             this.label3.Text = "Start Time";
             // 
@@ -77,9 +80,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(85, 246);
+            this.label4.Location = new System.Drawing.Point(128, 384);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 25);
+            this.label4.Size = new System.Drawing.Size(154, 37);
             this.label4.TabIndex = 3;
             this.label4.Text = "End Time";
             // 
@@ -87,9 +91,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(85, 305);
+            this.label5.Location = new System.Drawing.Point(128, 477);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 25);
+            this.label5.Size = new System.Drawing.Size(139, 37);
             this.label5.TabIndex = 4;
             this.label5.Text = "Duration";
             // 
@@ -97,46 +102,52 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(85, 358);
+            this.label6.Location = new System.Drawing.Point(128, 559);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 25);
+            this.label6.Size = new System.Drawing.Size(91, 37);
             this.label6.TabIndex = 5;
             this.label6.Text = "Level";
             // 
             // SText
             // 
-            this.SText.Location = new System.Drawing.Point(220, 189);
+            this.SText.Location = new System.Drawing.Point(330, 295);
+            this.SText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SText.Name = "SText";
-            this.SText.Size = new System.Drawing.Size(166, 22);
+            this.SText.Size = new System.Drawing.Size(247, 31);
             this.SText.TabIndex = 7;
             // 
             // EText
             // 
-            this.EText.Location = new System.Drawing.Point(220, 248);
+            this.EText.Location = new System.Drawing.Point(330, 388);
+            this.EText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EText.Name = "EText";
-            this.EText.Size = new System.Drawing.Size(166, 22);
+            this.EText.Size = new System.Drawing.Size(247, 31);
             this.EText.TabIndex = 8;
             // 
             // DurText
             // 
-            this.DurText.Location = new System.Drawing.Point(220, 307);
+            this.DurText.Location = new System.Drawing.Point(330, 480);
+            this.DurText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.DurText.Name = "DurText";
-            this.DurText.Size = new System.Drawing.Size(166, 22);
+            this.DurText.Size = new System.Drawing.Size(247, 31);
             this.DurText.TabIndex = 9;
             // 
             // lvlText
             // 
-            this.lvlText.Location = new System.Drawing.Point(220, 360);
+            this.lvlText.Location = new System.Drawing.Point(330, 562);
+            this.lvlText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvlText.Name = "lvlText";
-            this.lvlText.Size = new System.Drawing.Size(166, 22);
+            this.lvlText.Size = new System.Drawing.Size(247, 31);
             this.lvlText.TabIndex = 10;
             // 
             // AddBtn
             // 
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddBtn.Location = new System.Drawing.Point(499, 208);
+            this.AddBtn.Location = new System.Drawing.Point(748, 325);
+            this.AddBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(138, 38);
+            this.AddBtn.Size = new System.Drawing.Size(207, 59);
             this.AddBtn.TabIndex = 11;
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = true;
@@ -144,16 +155,17 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(220, 130);
+            this.dateTimePicker1.Location = new System.Drawing.Point(330, 203);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(298, 31);
             this.dateTimePicker1.TabIndex = 12;
             // 
             // AddT
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 703);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.lvlText);
@@ -166,8 +178,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AddT";
             this.Text = "Add";
+            this.Load += new System.EventHandler(this.AddT_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

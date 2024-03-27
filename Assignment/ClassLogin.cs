@@ -55,7 +55,7 @@ namespace Assignment
                 }
                 else if (userRole == "manager")
                 {
-                    ManagerHome ma = new ManagerHome();
+                    homeManager ma = new homeManager();
                     ma.ShowDialog();
                 }
             }

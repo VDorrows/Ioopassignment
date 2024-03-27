@@ -30,3 +30,42 @@ C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\As
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdate.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Rec.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\Login.mdf
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\Login_log.ldf
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.AddT.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Adduser.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.AdminHome.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.CoachMenu.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.DeleteT.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.EditT.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Edituser.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.FeeDue.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\hehehe.MemberHome.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\hehehe.enrollform.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\hehehe.updateprofile.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\hehehe.Form4.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Login.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Perform.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.ProfUpdate.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.Rec.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.View_Suggestion.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\bin\Debug\SOAPTools.dll
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.AddCompetition.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.frmCompetition.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.DeleteCompetition.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.EditCompetition.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.homeManager.resources
+C:\Users\wenchang\source\repos\Ioopassignment\Assignment\obj\Debug\Assignment.StudentRecommendations.resources

@@ -32,5 +32,9 @@ namespace Assignment
             String TrainingLevel = lvlText.Text;
         }
 
+        private void AddT_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
