@@ -20,13 +20,83 @@ C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\he
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.updateprofile.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.Form4.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.MemberHome.resources
-C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.View_Suggestion.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.AddT.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.CoachMenu.resources
-C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.DeleteT.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.EditT.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.FeeDue.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Perform.resources
-C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdate.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Rec.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.MemberSchedule.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\hehehe.suggstion.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.View.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\Login.mdf
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\Login_log.ldf
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.AddT.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Adduser.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.AdminHome.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.CoachMenu.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Edit.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.EditT.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Edituser.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.ProfUpdateCoach.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.enrollform.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.FeeDue.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.Form4.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.MemberHome.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.updateprofile.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Login.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.MemberSchedule.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\hehehe.suggstion.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Perform.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.Rec.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.View.resources
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\chuan\OneDrive\Documents\Assignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\Login.mdf
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\Login_log.ldf
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.AddT.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Adduser.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.AdminHome.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.CoachMenu.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Edit.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.EditT.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Edituser.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.ProfUpdateCoach.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.enrollform.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.FeeDue.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.Form4.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.MemberHome.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.updateprofile.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Login.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.MemberSchedule.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\hehehe.suggstion.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Perform.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.Rec.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.TrainingSchedule.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.View.resources
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.csproj.Up2Date
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Edit.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdateCoach.resources
