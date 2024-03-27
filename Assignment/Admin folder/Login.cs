@@ -69,7 +69,7 @@ namespace Assignment
                             coachMenu.ShowDialog();
                             break;
                         case "manager":
-                            ManagerHome managerHome = new ManagerHome();
+                            homeManager managerHome = new homeManager();
                             managerHome.ShowDialog();
                             break;
                         default:

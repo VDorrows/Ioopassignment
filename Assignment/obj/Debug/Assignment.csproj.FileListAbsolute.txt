@@ -100,3 +100,12 @@ C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignmen
 C:\Users\chuan\OneDrive\Documents\KX+CQAssignment\Assignment\obj\Debug\Assignment.pdb
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.Edit.resources
 C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.ProfUpdateCoach.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmComAdd.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmMberAssign.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmCompetition.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmComResult.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmComDel.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmComEdit.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.homeManager.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmStudentRE.resources
+C:\Users\janya\Documents (Local)\source\repos\Assignment\Assignment\obj\Debug\Assignment.frmViewComDetail.resources

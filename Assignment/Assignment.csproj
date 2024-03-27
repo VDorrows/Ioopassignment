@@ -66,7 +66,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Manager folder\AddCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\AddCompetition.Designer.cs">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin folder\Class SQL.cs" />
+    <Compile Include="Manager folder\AssignMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\AssignMembers.Designer.cs">
+      <DependentUpon>AssignMembers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Coach folder\AddTraining.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,36 @@
     <Compile Include="Coach folder\ProfUpdateCoach.Designer.cs">
       <DependentUpon>ProfUpdateCoach.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager folder\Competition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\Competition.Designer.cs">
+      <DependentUpon>Competition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\CompetitionResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\CompetitionResults.Designer.cs">
+      <DependentUpon>CompetitionResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\DeleteCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\DeleteCompetition.Designer.cs">
+      <DependentUpon>DeleteCompetition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\EditCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\EditCompetition.Designer.cs">
+      <DependentUpon>EditCompetition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\ManagerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\ManagerHome.Designer.cs">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Member folder\EnrollUnenroll.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,12 +210,6 @@
     <Compile Include="Admin folder\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager folder\ManagerHome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Manager folder\ManagerHome.Designer.cs">
-      <DependentUpon>ManagerHome.cs</DependentUpon>
-    </Compile>
     <Compile Include="Member folder\MemberPerformance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +254,24 @@
     <Compile Include="Admin folder\View.Designer.cs">
       <DependentUpon>View.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager folder\StudentRecommendations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\StudentRecommendations.Designer.cs">
+      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\ViewCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\ViewCompetition.Designer.cs">
+      <DependentUpon>ViewCompetition.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Manager folder\AddCompetition.resx">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\AssignMembers.resx">
+      <DependentUpon>AssignMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\AddTraining.resx">
       <DependentUpon>AddTraining.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,6 +295,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\ProfUpdateCoach.resx">
       <DependentUpon>ProfUpdateCoach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\Competition.resx">
+      <DependentUpon>Competition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\CompetitionResults.resx">
+      <DependentUpon>CompetitionResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\DeleteCompetition.resx">
+      <DependentUpon>DeleteCompetition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\EditCompetition.resx">
+      <DependentUpon>EditCompetition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\ManagerHome.resx">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Member folder\EnrollUnenroll.resx">
       <DependentUpon>EnrollUnenroll.cs</DependentUpon>
@@ -286,6 +355,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin folder\View.resx">
       <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\StudentRecommendations.resx">
+      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\ViewCompetition.resx">
+      <DependentUpon>ViewCompetition.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LoginDataSet.xsc">
       <DependentUpon>LoginDataSet.xsd</DependentUpon>
