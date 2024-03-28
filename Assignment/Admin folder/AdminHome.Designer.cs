@@ -300,7 +300,7 @@
             this.btnclear.TabIndex = 40;
             this.btnclear.Text = "Clear";
             this.btnclear.UseVisualStyleBackColor = true;
-            this.btnclear.Click += new System.EventHandler(this.button1_Click);
+            this.btnclear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // AdminHome
             // 

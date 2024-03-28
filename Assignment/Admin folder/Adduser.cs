@@ -79,7 +79,7 @@ namespace Assignment
 
                 Add_user addUser = new Add_user(email, password, username, additionalInfo);
                 string userRole = rbAdmin.Checked ? "admin" : rbMember.Checked ? "member" : rbCoach.Checked ? "coach" : "manager";
-                MessageBox.Show(addUser.adduser(userRole));
+                MessageBox.Show(addUser.addUser(userRole));
                 tbemail.Clear();
                 tbpassword.Clear();
                 tbconfirm.Clear();

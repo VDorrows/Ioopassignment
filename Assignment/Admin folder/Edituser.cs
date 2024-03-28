@@ -77,7 +77,7 @@ namespace Assignment
                 try
                 {
                     ClassEditUser editUser = new ClassEditUser(email, password, username, additionalInfo, userRole);
-                    MessageBox.Show(editUser.edituser(email)); // Show the status returned by the edituser method
+                    MessageBox.Show(editUser.editUser(email)); // Show the status returned by the edituser method
                     this.Close(); 
                 }
                 catch (Exception ex)
@@ -95,7 +95,7 @@ namespace Assignment
                 try
                 {
                     ClassEditUser editUser = new ClassEditUser(email, "", "", "", userRole);
-                    string status = editUser.DeleteUser(email, userRole);
+                    string status = editUser.deleteUser(email, userRole);
 
                     MessageBox.Show(status);
                     ClearFields();

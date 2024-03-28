@@ -16,7 +16,7 @@ namespace Assignment
         private string userName;
         private string additionalInfo;
         private string userRole;
-        private SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString());
+        private SqlHelper sqlhelper;
 
         public ClassEditUser(string email, string password, string userName, string additionalInfo, string userRole)
         {
@@ -25,57 +25,55 @@ namespace Assignment
             this.userName = userName;
             this.additionalInfo = additionalInfo;
             this.userRole = userRole;
+            this.sqlhelper = new SqlHelper();
         }
 
-        public string edituser(string userRole)
+        public string editUser(string userRole)
         {
+            sqlhelper.openCon();
             string status;
             SqlTransaction transaction = null;
             try
             {
-                    con.Open();
-                    transaction = con.BeginTransaction();
+                transaction = sqlhelper.beginTransaction();
+                // Update data in the user table
+                var userData = new Dictionary<string, object>
+                {
+                    { "password", password },
+                    { "username", userName }
+                };
+                sqlhelper.editData("users", "email", email, userData, transaction);
 
-                    // Insert data into the user table
-                    SqlCommand cmdUser = new SqlCommand("UPDATE users SET password = @pwd, username = @uname WHERE email = @em", con, transaction);
-                    cmdUser.Parameters.AddWithValue("@em", email);
-                    cmdUser.Parameters.AddWithValue("@pwd", password);
-                    cmdUser.Parameters.AddWithValue("@uname", userName);
-                    cmdUser.ExecuteNonQuery();
-
-                    // If the user is a coach, insert data into the coach table
-                    if (userRole == "coach")
-                    {
-                        string[] info = additionalInfo.Split('|');
-                        string training = info[0];
-                        string salary = info[1];
-
-                        SqlCommand cmdCoach = new SqlCommand("UPDATE coach SET traininglevel = @training, salary = @salary WHERE email = @em", con, transaction);
-                        cmdCoach.Parameters.AddWithValue("@em", email);
-                        cmdCoach.Parameters.AddWithValue("@training", training);
-                        cmdCoach.Parameters.AddWithValue("@salary", salary);
-                        cmdCoach.ExecuteNonQuery();
-                    }
-                    // If the user is a member, insert data into the member table
-                    else if (userRole == "member")
-                    {
-                        SqlCommand cmdMember = new SqlCommand("UPDATE member SET traininglevel = @training WHERE email = @em", con, transaction);
-                        cmdMember.Parameters.AddWithValue("@em", email);
-                        cmdMember.Parameters.AddWithValue("@training", additionalInfo);
-                        cmdMember.ExecuteNonQuery();
-                    }
-                    // If the user is a manager, insert data into the manager table
-                    else if (userRole == "manager")
-                    {
-                        SqlCommand cmdManager = new SqlCommand("UPDATE manager SET salary = @salary WHERE email = @em", con, transaction);
-                        cmdManager.Parameters.AddWithValue("@em", email);
-                        cmdManager.Parameters.AddWithValue("@salary", additionalInfo);
-                        cmdManager.ExecuteNonQuery();
-                    }
-
-                    transaction.Commit();
-                    status = "Update Successful";
-                
+                // Update additional data based on user role
+                switch (userRole)
+                {
+                    case "coach":
+                        var coachData = new Dictionary<string, object>
+                        {
+                            { "traininglevel", additionalInfo.Split('|')[0] },
+                            { "salary", additionalInfo.Split('|')[1] }
+                        };
+                        sqlhelper.editData("coach", "email", email, coachData, transaction);
+                        break;
+                    case "member":
+                        var memberData = new Dictionary<string, object>
+                        {
+                            { "traininglevel", additionalInfo }
+                        };
+                        sqlhelper.editData("member", "email", email, memberData, transaction);
+                        break;
+                    case "manager":
+                        var managerData = new Dictionary<string, object>
+                        {
+                            { "salary", additionalInfo }
+                        };
+                        sqlhelper.editData("manager", "email", email, managerData, transaction);
+                        break;
+                    default:
+                        break;
+                }
+                transaction.Commit();
+                status = "Update Successful";
             }
             catch (Exception ex)
             {
@@ -87,59 +85,56 @@ namespace Assignment
             }
             finally
             {
-                if (con.State == System.Data.ConnectionState.Open)
-                {
-                    con.Close();
-                }
+                sqlhelper.closeCon();
             }
             return status;
         }
 
-
-        public string DeleteUser(string email, string userRole)
+        public string deleteUser(string email, string userRole)
         {
+            sqlhelper.openCon();
             string status;
             SqlTransaction transaction = null;
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
+                transaction = sqlhelper.beginTransaction();
+
+                // Delete user from the 'users' table
+                var userCondition = "email = @email";
+                var userParameters = new Dictionary<string, object>
                 {
-                    con.Open();
-                    transaction = con.BeginTransaction();
+                    { "@email", email }
+                };
+                sqlhelper.deleteData("users", userCondition, userParameters, transaction);
 
-                    SqlCommand cmdDeleteUser = new SqlCommand("DELETE FROM users WHERE email = @email", con, transaction);
-                    cmdDeleteUser.Parameters.AddWithValue("@email", email);
-                    cmdDeleteUser.ExecuteNonQuery();
-
-                    // Additional deletion based on user role
-                    if (userRole != "admin")
+                // Delete additional data based on user role (except for 'admin')
+                if (userRole != "admin")
+                {
+                    var roleCondition = "email = @email";
+                    var roleParameters = new Dictionary<string, object>
                     {
-                        string command = $"DELETE FROM {userRole} WHERE email = @email";
-                        Debug.WriteLine("SQL Command: " + command); // Output SQL command to the Output window for debugging
-                        SqlCommand cmdDeleteRole = new SqlCommand(command, con, transaction);
-                        cmdDeleteRole.Parameters.AddWithValue("@email", email);
-                        cmdDeleteRole.ExecuteNonQuery();
-                    }
-
-                    transaction.Commit();
-                    status = "User deleted successfully";
+                        { "@email", email }
+                    };
+                    sqlhelper.deleteData(userRole, roleCondition, roleParameters, transaction);
                 }
+
+                // Commit transaction
+                transaction.Commit();
+                status = "User deleted successfully";
             }
             catch (Exception ex)
             {
                 if (transaction != null)
                 {
-                    try
-                    {
-                        transaction.Rollback();
-                    }
-                    catch (Exception exRollback)
-                    {
-                        // Handle rollback exception
-                        status = "Error rolling back transaction: " + exRollback.Message;
-                    }
+                    // Rollback transaction
+                    transaction.Rollback();
                 }
                 status = "Error deleting user: " + ex.Message;
+            }
+            finally
+            {
+                // Close connection
+                sqlhelper.closeCon();
             }
             return status;
         }

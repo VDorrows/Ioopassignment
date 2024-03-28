@@ -15,6 +15,21 @@ namespace Assignment
             this.connectionString = connectionString;
         }
 
+        private string GetQueryForCommand(string command)
+        {
+            switch (command)
+            {
+                case "Suggestion":
+                    return "SELECT Id FROM Suggestion";
+                case "Income":
+                    return "SELECT ScheduleID FROM Schedule";
+                case "Competition":
+                    return "SELECT CompetitonID FROM Result";
+                default:
+                    throw new ArgumentException("Invalid command.");
+            }
+        }
+
         public void PopulateListBox(ListBox lbid, string command)
         {
             try
@@ -41,16 +56,16 @@ namespace Assignment
             }
         }
 
-        private string GetQueryForCommand(string command)
+        private string GetQueryForDetail(string command)
         {
             switch (command)
             {
                 case "Suggestion":
-                    return "SELECT Id FROM Suggestion";
+                    return "SELECT Suggestion FROM Suggestion WHERE ID = @id";
                 case "Income":
-                    return "SELECT ScheduleID FROM Schedule";
+                    return "SELECT Income FROM Schedule WHERE ScheduleID = @id";
                 case "Competition":
-                    return "SELECT CompetitonID FROM CompetitionResult";
+                    return "SELECT Result FROM Result WHERE CompetitionID = @id";
                 default:
                     throw new ArgumentException("Invalid command.");
             }
@@ -87,19 +102,5 @@ namespace Assignment
             return suggestion;
         }
 
-        private string GetQueryForDetail(string command)
-        {
-            switch (command)
-            {
-                case "Suggestion":
-                    return "SELECT Suggestion FROM Suggestion WHERE ID = @id";
-                case "Income":
-                    return "SELECT Income FROM Schedule WHERE ScheduleID = @id";
-                case "Competition":
-                    return "SELECT Result FROM CompetitionResult WHERE CompetitionID = @id";
-                default:
-                    throw new ArgumentException("Invalid command.");
-            }
-        }
     }
 }

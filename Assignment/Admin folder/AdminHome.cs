@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Admin_folder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
@@ -20,6 +21,7 @@ namespace Assignment
         private const string Suggestion = "Suggestion";
         private const string Income = "Income";
         private const string Competition = "Competition";
+        private SqlHelper sqlHelper;
 
         public AdminHome()
         {
@@ -46,115 +48,9 @@ namespace Assignment
         private void btnSearch_Click(object sender, EventArgs e)
         {
             string searchEmail = tbSearchemail.Text.Trim();
-            SearchUser(searchEmail);
-        }
-
-        private void SearchUser(string email)
-        {
-            try
-            {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
-                {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE email = @email", con);
-                    cmd.Parameters.AddWithValue("@email", email);
-                    SqlDataReader reader = cmd.ExecuteReader();
-
-                    if (reader.Read())
-                    {
-                        lbluserRole.Text = reader["role"].ToString();
-                        lblemail.Text = reader["email"].ToString();
-                        lblpassword.Text = reader["password"].ToString();
-                        lblusername.Text = reader["username"].ToString();
-
-                        string userRole = reader["role"].ToString();
-
-                        if (userRole == "coach" || userRole == "member" || userRole == "manager")
-                        {
-                            DisplayAdditionalInfo(userRole, email);
-                        }
-                        else
-                        {
-                            lbltraininglevel.Text = null;
-                            lblsalary.Text = null;
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("User not found.");
-                    }
-
-                    reader.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-        }
-
-        private void DisplayAdditionalInfo(string userRole, string email)
-        {
-            try
-            {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
-                {
-                    con.Open();
-                    string tableName = ""; // Initialize table name
-                    switch (userRole)
-                    {
-                        case "coach":
-                            tableName = "coach";
-                            break;
-                        case "member":
-                            tableName = "member";
-                            break;
-                        case "manager":
-                            tableName = "manager";
-                            break;
-                        default:
-                            break;
-                    }
-                    if (!string.IsNullOrEmpty(tableName))
-                    {
-                        string sqlQuery = $"SELECT * FROM {tableName} WHERE email = @email";
-                        SqlCommand cmd = new SqlCommand(sqlQuery, con);
-                        cmd.Parameters.AddWithValue("@email", email);
-                        SqlDataReader reader = cmd.ExecuteReader();
-
-                        if (reader.Read())
-                        {
-                            try
-                            {
-                                lbltraininglevel.Text = reader["traininglevel"].ToString();
-                            }
-                            catch
-                            {
-                                lbltraininglevel.Text = null;
-                            }
-                            try
-                            {
-                                lblsalary.Text = reader["salary"].ToString();
-                            }
-                            catch
-                            {
-                                lblsalary.Text = null;
-                            }
-                        }
-                        else
-                        {
-                            lbltraininglevel.Text = null;
-                            lblsalary.Text = null;
-                        }
-
-                        reader.Close();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
+            SqlHelper sqlHelper = new SqlHelper(); //Initiate Class Sql
+            SearchUser searchUser = new SearchUser(sqlHelper); //Initiate Class SearchUser
+            searchUser.searchUser(searchEmail, lbluserRole, lblemail, lblpassword, lblusername, lbltraininglevel, lblsalary);
         }
 
         private void btnedit_Click(object sender, EventArgs e)
@@ -167,8 +63,16 @@ namespace Assignment
             string salary = lblsalary.Text;
             clearFields();
 
-            Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole,true);
-            editUser.ShowDialog();
+            if (email == name) //Check if email equals to current user
+            {
+                Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole, false);
+                editUser.ShowDialog();
+            }
+            else
+            {
+                Edituser editUser = new Edituser(email, password, username, trainingLevel, salary, userRole, true);
+                editUser.ShowDialog();
+            }
         }
 
         private void clearFields()
@@ -181,50 +85,31 @@ namespace Assignment
             lblsalary.Text = null;
         }
 
-
         private void btnupdate_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
+        {   
+            string n = name;
+                // Create an instance of the SearchUser class
+                SearchUser searchUser = new SearchUser(new SqlHelper());
+                // Search for current user by email
+                DataTable userData = searchUser.SearchUserByName(name);
+                // Process query results
+                if (userData != null && userData.Rows.Count > 0)
                 {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE email = @name", con);
-                    cmd.Parameters.AddWithValue("@name", name);
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    DataRow userRow = userData.Rows[0];
+                    string email = userRow["email"].ToString();
+                    string password = userRow["password"].ToString();
+                    string username = userRow["username"].ToString();
+                    string userRole = userRow["role"].ToString();
 
-                    if (reader.Read())
-                    {
-                        lbluserRole.Text = reader["role"].ToString();
-                        lblemail.Text = reader["email"].ToString();
-                        lblpassword.Text = reader["password"].ToString();
-                        lblusername.Text = reader["username"].ToString();
-                        lbluserRole.Text = reader["role"].ToString();
-                    }
-                    else
-                    {
-                        MessageBox.Show("User not found.");
-                    }
-
-                    reader.Close();
+                    // Open the Edituser form with the retrieved user data
+                    Edituser editUserForm = new Edituser(email, password, username, "", "", userRole, false);
+                    editUserForm.ShowDialog();
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-            string email = lblemail.Text;
-            string password = lblpassword.Text;
-            string username = lblusername.Text;
-            string userRole = lbluserRole.Text;
-            clearFields();
-            Edituser editUserForm = new Edituser(email, password, username, "","", userRole,false);
-            editUserForm.ShowDialog();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            clearFields();
+                else
+                {
+                    MessageBox.Show("User not found.");
+                }
+            
         }
 
         private void btnviewR_Click(object sender, EventArgs e)
@@ -243,6 +128,11 @@ namespace Assignment
         {
             View vC = new View(Competition);
             vC.ShowDialog();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            clearFields();
         }
     }
 }

@@ -3,25 +3,26 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Assignment
 {
     public partial class Login : Form
     {
-        private readonly SqlHelper sqlHelper;
+        private readonly SqlHelper sqlhelper;
 
         public Login()
         {
             InitializeComponent();
-            sqlHelper = new SqlHelper();
+            sqlhelper = new SqlHelper();
         }
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
             string email = txtusername.Text.Trim();
             string password = txtpassword.Text.Trim();
-            string status = LoginUser(email, password);
+            string status = loginUser(email, password);
 
             if (status != null)
             {
@@ -31,7 +32,7 @@ namespace Assignment
             txtpassword.Text = string.Empty;
         }
 
-        private string LoginUser(string email, string password)
+        private string loginUser(string email, string password)
         {
             string status = null;
 
@@ -39,19 +40,20 @@ namespace Assignment
             {
                 // Check if the email and password combination exists in the database
                 string query = "SELECT COUNT(*) FROM users WHERE email = @email AND password = @password";
+                // Collect key value pair for column in database and the argument in the method
                 var parameters = new Dictionary<string, object>
                 {
                     { "@email", email },
                     { "@password", password }
                 };
-
-                int count = Convert.ToInt32(sqlHelper.ExecuteScalar(query, parameters));
+                sqlhelper.openCon();
+                int count = Convert.ToInt32(sqlhelper.executeScalar(query, parameters));
 
                 if (count > 0)
                 {
                     // Retrieve the user's role
                     query = "SELECT role FROM users WHERE email = @email";
-                    string userRole = sqlHelper.ExecuteScalar(query, parameters).ToString();
+                    string userRole = sqlhelper.executeScalar(query, parameters).ToString();
 
                     // Open corresponding form based on user role
                     switch (userRole)
@@ -85,6 +87,10 @@ namespace Assignment
             catch (Exception ex)
             {
                 status = "Error: " + ex.Message;
+            }
+            finally
+            {
+                sqlhelper.closeCon();
             }
 
             return status;

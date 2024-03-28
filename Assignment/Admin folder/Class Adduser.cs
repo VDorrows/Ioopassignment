@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Assignment
 {
@@ -14,7 +15,7 @@ namespace Assignment
         private string password;
         private string userName;
         private string additionalInfo;
-        private SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString());
+        private SqlHelper sqlhelper;
 
         public Add_user(string email, string password, string userName, string additionalInfo)
         {
@@ -22,61 +23,60 @@ namespace Assignment
             this.password = password;
             this.userName = userName;
             this.additionalInfo = additionalInfo;
+            sqlhelper = new SqlHelper();
         }
 
-        public string adduser(string userRole)
+        public string addUser(string userRole)
         {
             string status;
             SqlTransaction transaction = null;
             try
             {
-                if (Email_Exists(email))
+                sqlhelper.openCon();
+                if (emailExists(email))
                 {
-                    status = "Email already exists in database.";
+                    status = "Email already exists in the database.";
                 }
                 else
                 {
-                    con.Open();
-                    transaction = con.BeginTransaction();
+                    // Begin transaction
+                    transaction = sqlhelper.beginTransaction();
 
                     // Insert data into the user table
-                    SqlCommand cmdUser = new SqlCommand("INSERT INTO users(email, password, username, role) VALUES(@em, @pwd, @uname, @role)", con, transaction);
-                    cmdUser.Parameters.AddWithValue("@em", email);
-                    cmdUser.Parameters.AddWithValue("@pwd", password);
-                    cmdUser.Parameters.AddWithValue("@uname", userName);
-                    cmdUser.Parameters.AddWithValue("@role", userRole);
-                    cmdUser.ExecuteNonQuery();
+                    var userData = new Dictionary<string, object>
+                    {
+                        { "email", email },
+                        { "password", password },
+                        { "username", userName },
+                        { "role", userRole }
+                    };
+                    sqlhelper.addData("users", userData, transaction);
 
-                    // If the user is a coach, insert data into the coach table
-                    if (userRole == "coach")
+                    // Insert additional data based on user role
+                    var additionalData = new Dictionary<string, object>();
+                    switch (userRole)
                     {
-                        string[] info = additionalInfo.Split('|');
-                        string training = info[0];
-                        string salary = info[1];
-
-                        SqlCommand cmdCoach = new SqlCommand("INSERT INTO coach(email, traininglevel, salary) VALUES(@em, @training, @salary)", con, transaction);
-                        cmdCoach.Parameters.AddWithValue("@em", email);
-                        cmdCoach.Parameters.AddWithValue("@training", training);
-                        cmdCoach.Parameters.AddWithValue("@salary", salary);
-                        cmdCoach.ExecuteNonQuery();
-                    }
-                    // If the user is a member, insert data into the member table
-                    else if (userRole == "member")
-                    {
-                        SqlCommand cmdMember = new SqlCommand("INSERT INTO member(email, traininglevel) VALUES(@em, @training)", con, transaction);
-                        cmdMember.Parameters.AddWithValue("@em", email);
-                        cmdMember.Parameters.AddWithValue("@training", additionalInfo);
-                        cmdMember.ExecuteNonQuery();
-                    }
-                    // If the user is a manager, insert data into the manager table
-                    else if (userRole == "manager")
-                    {
-                        SqlCommand cmdManager = new SqlCommand("INSERT INTO manager(email, salary) VALUES(@em, @salary)", con, transaction);
-                        cmdManager.Parameters.AddWithValue("@em", email);
-                        cmdManager.Parameters.AddWithValue("@salary", additionalInfo);
-                        cmdManager.ExecuteNonQuery();
+                        case "coach":
+                            additionalData.Add("email", email);
+                            additionalData.Add("traininglevel", additionalInfo.Split('|')[0]);
+                            additionalData.Add("salary", additionalInfo.Split('|')[1]);
+                            break;
+                        case "manager":
+                            additionalData.Add("email", email);
+                            additionalData.Add("salary", additionalInfo);
+                            break;
+                        case "member":
+                            additionalData.Add("email", email);
+                            additionalData.Add("traininglevel", additionalInfo);
+                            break;
+                        default:
+                            break;
                     }
 
+                    // Use the AddData method to insert additional data
+                    sqlhelper.addData(userRole, additionalData, transaction);
+
+                    // Commit transaction
                     transaction.Commit();
                     status = "Registration Successful";
                 }
@@ -91,24 +91,17 @@ namespace Assignment
             }
             finally
             {
-                if (con.State == System.Data.ConnectionState.Open)
-                {
-                    con.Close();
-                }
+                sqlhelper.closeCon();
             }
             return status;
         }
 
-        private bool Email_Exists(string email)
+        private bool emailExists(string email)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Users"].ToString()))
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM users WHERE email = @em", con);
-                cmd.Parameters.AddWithValue("@em", email);
-                int count = (int)cmd.ExecuteScalar();
-                return count > 0;
-            }
+            string query = "SELECT COUNT(*) FROM users WHERE email = @em";
+            var parameters = new Dictionary<string, object> { { "@em", email } };
+            int count = Convert.ToInt32(sqlhelper.executeScalar(query, parameters));
+            return count > 0;
         }
     }
 }
