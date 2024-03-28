@@ -16,5 +16,20 @@ namespace Assignment
         {
             InitializeComponent();
         }
+
+        private void btnDeleteCom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void boxComSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

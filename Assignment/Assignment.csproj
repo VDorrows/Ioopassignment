@@ -219,11 +219,17 @@
     <Compile Include="Recommendation.Designer.cs">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentRecommendations.cs">
+    <Compile Include="ViewMemberList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentRecommendations.Designer.cs">
-      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    <Compile Include="ViewMemberList.Designer.cs">
+      <DependentUpon>ViewMemberList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRecommendations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRecommendations.Designer.cs">
+      <DependentUpon>ViewRecommendations.cs</DependentUpon>
     </Compile>
     <Compile Include="TrainingSchedule.cs">
       <SubType>Form</SubType>
@@ -236,12 +242,6 @@
     </Compile>
     <Compile Include="View Suggestion.Designer.cs">
       <DependentUpon>View Suggestion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewCompetition.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewCompetition.Designer.cs">
-      <DependentUpon>ViewCompetition.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddCompetition.resx">
       <DependentUpon>AddCompetition.cs</DependentUpon>
@@ -321,17 +321,17 @@
     <EmbeddedResource Include="Recommendation.resx">
       <DependentUpon>Recommendation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentRecommendations.resx">
-      <DependentUpon>StudentRecommendations.cs</DependentUpon>
+    <EmbeddedResource Include="ViewMemberList.resx">
+      <DependentUpon>ViewMemberList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRecommendations.resx">
+      <DependentUpon>ViewRecommendations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrainingSchedule.resx">
       <DependentUpon>TrainingSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View Suggestion.resx">
       <DependentUpon>View Suggestion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewCompetition.resx">
-      <DependentUpon>ViewCompetition.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LoginDataSet.xsc">
       <DependentUpon>LoginDataSet.xsd</DependentUpon>

@@ -16,5 +16,10 @@ namespace Assignment
         {
             InitializeComponent();
         }
+
+        private void frmComResult_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

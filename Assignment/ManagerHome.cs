@@ -30,7 +30,7 @@ namespace Assignment
 
         private void lblStuRecommendation_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmStudentRE obj1 = new frmStudentRE();
+            frmViewCommend obj1 = new frmViewCommend();
             obj1.Show();
         }
 
@@ -40,15 +40,17 @@ namespace Assignment
             obj1.Show();
         }
 
-        private void lblComDetail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            frmViewComDetail obj1 = new frmViewComDetail();
-            obj1.Show();
-        }
+        
 
         private void lblComResult_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmComResult obj1 = new frmComResult();
+            obj1.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmViewMemList obj1 = new frmViewMemList();
             obj1.Show();
         }
     }
