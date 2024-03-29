@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +18,6 @@ namespace Assignment
             InitializeComponent();
         }
 
-        private void ManagerHome_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void lblComManagement_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -30,7 +27,7 @@ namespace Assignment
 
         private void lblStuRecommendation_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmStudentRE obj1 = new frmStudentRE();
+            frmViewCommend obj1 = new frmViewCommend();
             obj1.Show();
         }
 
@@ -40,15 +37,23 @@ namespace Assignment
             obj1.Show();
         }
 
-        private void lblComDetail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            frmViewComDetail obj1 = new frmViewComDetail();
-            obj1.Show();
-        }
+        
 
         private void lblComResult_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmComResult obj1 = new frmComResult();
+            obj1.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmViewMemList obj1 = new frmViewMemList();
+            obj1.Show();
+        }
+
+        private void lbl_ProfM_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmProfUpdate obj1 = new frmProfUpdate();
             obj1.Show();
         }
     }

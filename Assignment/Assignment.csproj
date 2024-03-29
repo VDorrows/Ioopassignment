@@ -134,6 +134,8 @@
     <Compile Include="Coach folder\ProfUpdateCoach.Designer.cs">
       <DependentUpon>ProfUpdateCoach.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager folder\ClassAddCompetition.cs" />
+    <Compile Include="Manager folder\ClassEditCompetition.cs" />
     <Compile Include="Manager folder\Competition.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +166,24 @@
     <Compile Include="Manager folder\ManagerHome.Designer.cs">
       <DependentUpon>ManagerHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager folder\ProfUpdateManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\ProfUpdateManager.Designer.cs">
+      <DependentUpon>ProfUpdateManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\ViewMemberList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\ViewMemberList.Designer.cs">
+      <DependentUpon>ViewMemberList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager folder\ViewRecommendations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager folder\ViewRecommendations.Designer.cs">
+      <DependentUpon>ViewRecommendations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Member folder\EnrollUnenroll.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,12 +195,6 @@
     </Compile>
     <Compile Include="Coach folder\FeeDue.Designer.cs">
       <DependentUpon>FeeDue.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Member folder\Form4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member folder\Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -198,12 +212,6 @@
     </Compile>
     <Compile Include="Member folder\MemberHome.Designer.cs">
       <DependentUpon>MemberHome.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Member folder\Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member folder\Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin folder\Login.cs">
       <SubType>Form</SubType>
@@ -234,6 +242,12 @@
     </Compile>
     <Compile Include="Coach folder\Perform.Designer.cs">
       <DependentUpon>Perform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member folder\updateprofile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member folder\updateprofile.Designer.cs">
+      <DependentUpon>updateprofile.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -312,23 +326,32 @@
     <EmbeddedResource Include="Manager folder\ManagerHome.resx">
       <DependentUpon>ManagerHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\ProfUpdateManager.resx">
+      <DependentUpon>ProfUpdateManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\ViewMemberList.resx">
+      <DependentUpon>ViewMemberList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager folder\ViewRecommendations.resx">
+      <DependentUpon>ViewRecommendations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Member folder\EnrollUnenroll.resx">
       <DependentUpon>EnrollUnenroll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\FeeDue.resx">
       <DependentUpon>FeeDue.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member folder\Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="Member folder\MemberCompetition.resx">
+      <DependentUpon>MemberCompetition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Member folder\MemberHome.resx">
       <DependentUpon>MemberHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member folder\Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Admin folder\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member folder\MemberPerformance.resx">
+      <DependentUpon>MemberPerformance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Member folder\MemberSchedule.resx">
       <DependentUpon>MemberSchedule.cs</DependentUpon>
@@ -338,6 +361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Coach folder\Perform.resx">
       <DependentUpon>Perform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member folder\updateprofile.resx">
+      <DependentUpon>updateprofile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

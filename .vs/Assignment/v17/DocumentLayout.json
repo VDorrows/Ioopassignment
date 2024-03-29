@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\class searchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\class searchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\classedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\classedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\classview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|c:\\users\\janya\\documents (local)\\source\\repos\\assignment\\assignment\\admin folder\\class sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927D237A-EDDA-4ECD-85FF-97C7D092B607}|Assignment\\Assignment.csproj|solutionrelative:assignment\\admin folder\\class sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,113 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "View.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\View.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\View.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\View.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\View.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T11:01:12.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "View.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\View.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\View.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\View.cs [Design]",
-              "RelativeToolTip": "Assignment\\Admin folder\\View.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T11:01:11.512Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClassView.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\ClassView.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\ClassView.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\ClassView.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\ClassView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T11:01:00.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClassEditUser.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\ClassEditUser.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\ClassEditUser.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\ClassEditUser.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\ClassEditUser.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwGMAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:47:05.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class SearchUser.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Class SearchUser.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\Class SearchUser.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Class SearchUser.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\Class SearchUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:08:37.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminHome.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\AdminHome.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\AdminHome.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAswEwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:00:15.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminHome.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\AdminHome.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\AdminHome.cs [Design]",
-              "RelativeToolTip": "Assignment\\Admin folder\\AdminHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:00:13.545Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class SQL.cs",
-              "DocumentMoniker": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Class SQL.cs",
-              "RelativeDocumentMoniker": "Assignment\\Admin folder\\Class SQL.cs",
-              "ToolTip": "C:\\Users\\janya\\Documents (Local)\\source\\repos\\Assignment\\Assignment\\Admin folder\\Class SQL.cs",
-              "RelativeToolTip": "Assignment\\Admin folder\\Class SQL.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAQwMkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:43:27.346Z",
-              "EditorCaption": ""
             }
           ]
         },

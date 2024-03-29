@@ -28,38 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.name = new System.Windows.Forms.Label();
-            this.id = new System.Windows.Forms.Label();
+            this.lblemail = new System.Windows.Forms.Label();
             this.enroll_unenroll = new System.Windows.Forms.Button();
             this.schedule = new System.Windows.Forms.Button();
             this.performance = new System.Windows.Forms.Button();
             this.competition = new System.Windows.Forms.Button();
             this.suggestion = new System.Windows.Forms.Button();
             this.update = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.trainningclass = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // name
+            // lblemail
             // 
-            this.name.AutoSize = true;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(12, 10);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(109, 39);
-            this.name.TabIndex = 0;
-            this.name.Text = "label1";
-            this.name.Click += new System.EventHandler(this.name_Click);
-            // 
-            // id
-            // 
-            this.id.AutoSize = true;
-            this.id.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id.Location = new System.Drawing.Point(14, 61);
-            this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(79, 29);
-            this.id.TabIndex = 1;
-            this.id.Text = "label1";
+            this.lblemail.AutoSize = true;
+            this.lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblemail.Location = new System.Drawing.Point(12, 27);
+            this.lblemail.Name = "lblemail";
+            this.lblemail.Size = new System.Drawing.Size(79, 29);
+            this.lblemail.TabIndex = 1;
+            this.lblemail.Text = "label1";
+            this.lblemail.Click += new System.EventHandler(this.id_Click);
             // 
             // enroll_unenroll
             // 
@@ -118,42 +105,20 @@
             this.update.UseVisualStyleBackColor = true;
             this.update.Click += new System.EventHandler(this.update_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(589, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(190, 25);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "current training class";
-            // 
-            // trainningclass
-            // 
-            this.trainningclass.AutoSize = true;
-            this.trainningclass.Location = new System.Drawing.Point(591, 61);
-            this.trainningclass.Name = "trainningclass";
-            this.trainningclass.Size = new System.Drawing.Size(75, 17);
-            this.trainningclass.TabIndex = 9;
-            this.trainningclass.Text = "unenrolled";
-            // 
-            // Form1
+            // MemberHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 478);
-            this.Controls.Add(this.trainningclass);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.update);
             this.Controls.Add(this.suggestion);
             this.Controls.Add(this.competition);
             this.Controls.Add(this.performance);
             this.Controls.Add(this.schedule);
             this.Controls.Add(this.enroll_unenroll);
-            this.Controls.Add(this.id);
-            this.Controls.Add(this.name);
+            this.Controls.Add(this.lblemail);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.Name = "Form1";
+            this.Name = "MemberHome";
             this.Text = "profile";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -161,17 +126,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label name;
-        private System.Windows.Forms.Label id;
+        private System.Windows.Forms.Label lblemail;
         private System.Windows.Forms.Button enroll_unenroll;
         private System.Windows.Forms.Button schedule;
         private System.Windows.Forms.Button performance;
         private System.Windows.Forms.Button competition;
         private System.Windows.Forms.Button suggestion;
         private System.Windows.Forms.Button update;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label trainningclass;
     }
 }
 

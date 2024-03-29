@@ -28,57 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.boxCompetition = new System.Windows.Forms.ComboBox();
-            this.txtComRDate = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtComResult = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnRecord = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.boxComSelect = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(119, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 37);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Select Competition :";
-            // 
-            // boxCompetition
-            // 
-            this.boxCompetition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxCompetition.FormattingEnabled = true;
-            this.boxCompetition.Location = new System.Drawing.Point(126, 116);
-            this.boxCompetition.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.boxCompetition.Name = "boxCompetition";
-            this.boxCompetition.Size = new System.Drawing.Size(570, 45);
-            this.boxCompetition.TabIndex = 29;
-            // 
-            // txtComRDate
-            // 
-            this.txtComRDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComRDate.Location = new System.Drawing.Point(300, 204);
-            this.txtComRDate.Name = "txtComRDate";
-            this.txtComRDate.Size = new System.Drawing.Size(396, 44);
-            this.txtComRDate.TabIndex = 38;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(119, 204);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 37);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Date :";
             // 
             // txtComResult
             // 
             this.txtComResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComResult.Location = new System.Drawing.Point(300, 268);
+            this.txtComResult.Location = new System.Drawing.Point(336, 245);
             this.txtComResult.Name = "txtComResult";
             this.txtComResult.Size = new System.Drawing.Size(396, 44);
             this.txtComResult.TabIndex = 40;
@@ -86,50 +46,70 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(119, 271);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            this.label3.Location = new System.Drawing.Point(71, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 37);
+            this.label3.Size = new System.Drawing.Size(243, 45);
             this.label3.TabIndex = 39;
-            this.label3.Text = "Result :";
+            this.label3.Text = "Insert Result :";
             // 
             // btnRecord
             // 
-            this.btnRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecord.Location = new System.Drawing.Point(483, 375);
+            this.btnRecord.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnRecord.Font = new System.Drawing.Font("Arial", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecord.Location = new System.Drawing.Point(519, 411);
             this.btnRecord.Name = "btnRecord";
             this.btnRecord.Size = new System.Drawing.Size(213, 75);
             this.btnRecord.TabIndex = 41;
             this.btnRecord.Text = "Record";
-            this.btnRecord.UseVisualStyleBackColor = true;
+            this.btnRecord.UseVisualStyleBackColor = false;
+            this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            this.label5.Location = new System.Drawing.Point(71, 61);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(326, 45);
+            this.label5.TabIndex = 43;
+            this.label5.Text = "Select Competition :";
+            // 
+            // boxComSelect
+            // 
+            this.boxComSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boxComSelect.FormattingEnabled = true;
+            this.boxComSelect.Location = new System.Drawing.Point(79, 135);
+            this.boxComSelect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.boxComSelect.Name = "boxComSelect";
+            this.boxComSelect.Size = new System.Drawing.Size(653, 45);
+            this.boxComSelect.TabIndex = 42;
             // 
             // frmComResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(940, 584);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(842, 598);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.boxComSelect);
             this.Controls.Add(this.btnRecord);
             this.Controls.Add(this.txtComResult);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtComRDate);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.boxCompetition);
             this.Name = "frmComResult";
             this.Text = "Competition Results";
+            this.Load += new System.EventHandler(this.frmComResult_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox boxCompetition;
-        private System.Windows.Forms.TextBox txtComRDate;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtComResult;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnRecord;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox boxComSelect;
     }
 }
